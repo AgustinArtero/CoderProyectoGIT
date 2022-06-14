@@ -104,6 +104,16 @@ header {
     margin-top: 1px;
     margin-bottom: 10px;
 }
+.stadium {
+    padding: 1%
+}
+.olds {
+    font-size: 25px;
+}
+.hirsc {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .dest {
     text-align: center;
     font-size: 30px;
@@ -379,7 +389,8 @@ header {
     color: #000;
 }
 .hirschi_tit {
-    margin-top: 10px;
+    margin-top: 10px; 
+    font-size: 23px;
 }
 .pics {
     width: 400px;

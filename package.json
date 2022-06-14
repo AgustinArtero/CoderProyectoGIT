@@ -1,0 +1,25 @@
+{
+  "name": "git_1",
+  "version": "1.0.0",
+  "description": "SASS nro1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/sec_folder.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinArtero/CoderProyectoGIT.git"
+  },
+  "author": "Agustin Artero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgustinArtero/CoderProyectoGIT/issues"
+  },
+  "homepage": "https://github.com/AgustinArtero/CoderProyectoGIT#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
