@@ -107,6 +107,12 @@ header {
 .stadium {
     padding: 1%
 }
+.imghome {
+padding-top: 10px; 
+        width: 87px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+}
 .olds {
     font-size: 25px;
 }
