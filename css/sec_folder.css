@@ -1,0 +1,134 @@
+body {
+  background-size: 100%;
+  background-image: url(../cimg/FONDO_EDLP.jpg);
+  background-position: center; }
+
+header {
+  text-align: center;
+  background-image: url(../cimg/fondo_nav.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+footer {
+  height: 150px; }
+
+.redesnav {
+  align-items: center;
+  align-content: center;
+  padding-right: 7%;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.navfooter {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  margin-left: 10px; }
+
+.imghome {
+  padding-top: 10px;
+  width: 87px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px; }
+
+.titulo {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-shadow: -2px -1px 10px black; }
+
+.titu {
+  text-decoration: none;
+  text-align: center;
+  color: #ededed;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 38px; }
+  .titu:hover {
+    color: #ffffff; }
+
+.inde_tit {
+  text-align: center; }
+  .inde_tit_titulo {
+    font-size: 45px;
+    margin-top: 12px;
+    margin-bottom: 12px; }
+  .inde_tit_parr {
+    margin: 0px 200px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px; }
+
+.tit_animado {
+  animation: tit_animado 2s cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s both; }
+
+@keyframes tit_animado {
+  0% {
+    letter-spacing: 0.2em;
+    opacity: 0; }
+  25% {
+    opacity: 0.4; }
+  50% {
+    opacity: 0.6; }
+  75% {
+    opacity: 0.9; }
+  100% {
+    color: black;
+    letter-spacing: normal;
+    opacity: 1; } }
+
+.indek {
+  display: grid;
+  justify-items: center; }
+  .indek .pics {
+    width: 400px; }
+  .indek_pri {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .indek_fut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+    padding-top: 0px;
+    padding: 20px 20px 20px;
+    background-clip: border-box;
+    border-radius: 5px;
+    background-color: #a5a5a586; }
+    .indek_fut:hover {
+      background-color: #a5a5a54d; }
+    .indek_fut .tit_ind {
+      margin-top: 0px; }
+      .indek_fut .tit_ind:hover {
+        transform: scale(102%); }
+  .indek .indek_seg {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .indek .indek_seg .indek_bas {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 15px;
+      padding-top: 0px;
+      padding: 20px 20px 20px;
+      background-clip: border-box;
+      border-radius: 5px;
+      background-color: #a5a5a586; }
+      .indek .indek_seg .indek_bas:hover {
+        background-color: #a5a5a54d; }
+    .indek .indek_seg .indek_hockey {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 15px;
+      padding-top: 0px;
+      padding: 20px 20px 20px;
+      background-clip: border-box;
+      border-radius: 5px;
+      background-color: #a5a5a586; }
+      .indek .indek_seg .indek_hockey:hover {
+        background-color: #a5a5a54d; }
+    .indek .indek_seg .tit_ind:hover {
+      transform: scale(102%); }
