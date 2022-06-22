@@ -147,6 +147,33 @@ footer {
   margin-top: 10px;
   padding-right: 10px; }
 
+.estadioTIT {
+  margin: 0px;
+  padding-bottom: 25px;
+  font-size: 30px; }
+  @media screen and (max-width: 768px) {
+    .estadioTIT {
+      font-size: 28px; } }
+  @media screen and (max-width: 480px) {
+    .estadioTIT {
+      font-size: 26px; } }
+
+/* PERTENECE A PRODUCTOS. NO HTML */
+.inde_tit_parrafo {
+  margin-right: 160px;
+  margin-left: 160px; }
+  @media screen and (max-width: 768px) {
+    .inde_tit_parrafo {
+      margin-right: 60px;
+      margin-left: 60px; } }
+  @media screen and (max-width: 480px) {
+    .inde_tit_parrafo {
+      font-size: 15px;
+      font-weight: 500;
+      margin-right: 20px;
+      margin-left: 20px; } }
+
+/* -------- */
 .inde_tit {
   text-align: center; }
 
@@ -154,14 +181,31 @@ footer {
   font-size: 45px;
   margin-top: 12px;
   margin-bottom: 12px; }
+  @media screen and (max-width: 768px) {
+    .inde_tit_titulo {
+      font-size: 27px; } }
+  @media screen and (max-width: 480px) {
+    .inde_tit_titulo {
+      font-size: 23px;
+      margin-top: 20px;
+      margin-bottom: 10px; } }
 
 .tit_animado {
   animation: tit_animado 2s cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s both; }
 
 .inde_tit_parr {
-  margin: 0px 400px 30px;
+  margin: 0px 130px 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 19px; }
+  @media screen and (max-width: 768px) {
+    .inde_tit_parr {
+      margin-right: 80px;
+      margin-left: 80px;
+      font-size: 16px; } }
+  @media screen and (max-width: 480px) {
+    .inde_tit_parr {
+      margin-right: 20px;
+      margin-left: 20px; } }
 
 .indek {
   display: grid;
@@ -182,7 +226,8 @@ footer {
     padding: 20px 20px 20px;
     background-clip: border-box;
     border-radius: 5px;
-    background-color: #a5a5a586; }
+    background-color: #a5a5a586;
+    border: #5a5a5a44 1px solid; }
     .indek_fut:hover {
       background-color: #a5a5a54d; }
   .indek_bas {
@@ -194,7 +239,8 @@ footer {
     padding: 20px 20px 20px;
     background-clip: border-box;
     border-radius: 5px;
-    background-color: #a5a5a586; }
+    background-color: #a5a5a586;
+    border: #5a5a5a44 1px solid; }
     .indek_bas:hover {
       background-color: #a5a5a54d; }
   .indek_hockey {
@@ -206,12 +252,14 @@ footer {
     padding: 20px 20px 20px;
     background-clip: border-box;
     border-radius: 5px;
-    background-color: #a5a5a586; }
+    background-color: #a5a5a586;
+    border: #5a5a5a44 1px solid; }
     .indek_hockey:hover {
       background-color: #a5a5a54d; }
 
 .tit_ind {
-  margin-top: 0px; }
+  margin-top: 0px;
+  padding-bottom: 5px; }
   .tit_ind:hover {
     transform: scale(102%); }
 
@@ -291,6 +339,15 @@ footer {
   .fechz:hover {
     color: #fe0000; }
 
+.descFotos {
+  font-size: 15px;
+  text-shadow: #000000 1px 1px 3px; }
+
+.pFotos {
+  font-size: 13px;
+  margin: 0px;
+  text-shadow: #000000 1px 1px 2px; }
+
 .gloria {
   font-size: 18px; }
 
@@ -325,8 +382,7 @@ footer {
   border-color: rgba(0, 0, 0, 0); }
   .copas_foto:hover {
     border-style: groove;
-    border-width: 1px;
-    border-color: #000; }
+    border: rgba(0, 0, 0, 0.719) 1px solid; }
 
 .copas_tit {
   font-size: 30px;
@@ -343,10 +399,6 @@ footer {
     border: #a8a8a8 1px solid;
     background-color: #ebebebb7; }
 
-@media (max-width: 1138px) {
-  .inde_tit_parr {
-    margin: 30px 20px; } }
-
 @media (max-width: 1900px) {
   .navfooter {
     width: 200px; } }
@@ -356,11 +408,6 @@ footer {
     width: 600px; }
   .his_der {
     width: 600px; } }
-
-@media (max-width: 1500px) {
-  .inde_tit_parr {
-    margin-right: 200px;
-    margin-left: 200px; } }
 
 @media (max-width: 1192px) {
   .his {
@@ -414,10 +461,6 @@ footer {
     font-size: 13px; } }
 
 @media (max-width: 970px) {
-  .inde_tit_titulo {
-    font-size: 27px; }
-  .inde_tit_parr {
-    font-size: 15px; }
   .indek_pri {
     display: grid;
     grid-template-columns: 1fr; }
@@ -440,11 +483,6 @@ footer {
   .indek_bas {
     margin-left: 0px;
     margin-right: 0px; } }
-
-@media (max-width: 950px) {
-  .inde_tit_parr {
-    margin-right: 40px;
-    margin-left: 40px; } }
 
 @media (max-width: 790px) {
   .titu {
@@ -533,12 +571,6 @@ footer {
       padding-bottom: 5px; }
   .areatext {
     width: 370px; }
-  .inde_tit_parr {
-    margin: 20px; }
-  .inde_tit_titulo {
-    font-size: 23px;
-    margin-top: 20px;
-    margin-bottom: 10px; }
   .prod_size {
     width: 300px; }
   .prod_bk {
@@ -549,8 +581,6 @@ footer {
 @media (max-width: 460px) {
   .titulo {
     font-size: 33px; }
-  .inde_tit_titulo {
-    font-size: 21px; }
   .dbl {
     font-size: 15px; }
   .pics {
