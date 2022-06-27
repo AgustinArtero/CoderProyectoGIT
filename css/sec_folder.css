@@ -42,6 +42,7 @@ footer {
   grid-template-columns: 100%;
   grid-template-rows: auto; }
 
+/* MAPA */
 .imghome {
   padding-top: 10px;
   width: 87px;
@@ -279,7 +280,7 @@ footer {
 .his_fund {
   text-align: center; }
 
-.his_izq {
+.his_izq, .his_der {
   display: flex;
   flex-direction: column;
   margin-left: 20%;
@@ -296,21 +297,8 @@ footer {
   padding-right: 20px; }
 
 .his_der {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  margin-left: 37.5%;
-  border-radius: 3px;
-  background: linear-gradient(145deg, #a3a3a3, #d4d4d4);
-  box-shadow: 5px 5px 16px #6e6e6e,-5px -5px 16px #ffffff;
-  width: 800px;
-  text-align: center;
-  font-weight: 500;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px; }
+  margin-left: 39.6%;
+  background: linear-gradient(145deg, #a3a3a3, #d4d4d4); }
 
 .his_cen {
   margin-left: 20%;
@@ -404,7 +392,7 @@ footer {
     width: 200px; } }
 
 @media (max-width: 1750px) {
-  .his_izq {
+  .his_izq, .his_der {
     width: 600px; }
   .his_der {
     width: 600px; } }
@@ -426,7 +414,7 @@ footer {
 @media (max-width: 1525px) {
   .his_cen {
     font-size: 14px; }
-  .his_izq {
+  .his_izq, .his_der {
     width: 500px;
     font-size: 14px; }
   .his_der {
@@ -449,7 +437,7 @@ footer {
 @media (max-width: 1200px) {
   .his_cen {
     font-size: 13px; }
-  .his_izq {
+  .his_izq, .his_der {
     width: 400px;
     font-size: 14px; }
   .his_der {
@@ -505,7 +493,7 @@ footer {
     margin: 10px;
     font-size: 12px;
     padding: 10px; }
-  .his_izq {
+  .his_izq, .his_der {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -523,7 +511,7 @@ footer {
     margin-bottom: 15px; }
   .pics {
     width: 370px; }
-  .his_izq p {
+  .his_izq p, .his_der p {
     padding-top: 5px;
     padding-bottom: 5px; }
   .his_der p {
@@ -539,7 +527,7 @@ footer {
     margin: 13px; }
   .fechz {
     font-size: 24px; }
-  .his_izq {
+  .his_izq, .his_der {
     width: 400px;
     margin-left: auto;
     margin-top: 10px;
@@ -594,7 +582,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 350px; }
-  .his_izq {
+  .his_izq, .his_der {
     width: 350px;
     margin-left: auto;
     margin-top: 10px;

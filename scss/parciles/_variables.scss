@@ -1,3 +1,13 @@
 $hoverProd: rgb(168, 168, 168) 1px solid;
 $hoverCopas:rgba(0, 0, 0, 0.719) 1px solid;
-$borderInd: #5a5a5a44 1px solid;
+$borderInd: #5a5a5a44 1px solid; 
+
+/* MAPA */
+$his_centro: (
+    color: #ededed, 
+    font-weight: 500, 
+    font-size: 15px, 
+    align-items: center,
+    border-radius: 4px, 
+    text-align: center 
+); 
