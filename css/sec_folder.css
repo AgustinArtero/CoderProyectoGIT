@@ -1,0 +1,618 @@
+body {
+  background-size: 100%;
+  background-image: url(../cimg/FONDO_EDLP.jpg);
+  background-position: center; }
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+header {
+  text-align: center;
+  background-image: url(../cimg/fondo_nav.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: header; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer;
+  height: 150px; }
+
+.redesnav {
+  align-items: center;
+  align-content: center;
+  padding-right: 7%;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.navfooter {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  margin-left: 10px; }
+
+.layout {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: auto; }
+
+/* MAPA */
+.imghome {
+  padding-top: 10px;
+  width: 87px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px; }
+
+.titulo {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-shadow: -2px -1px 10px black; }
+
+.titu {
+  text-decoration: none;
+  text-align: center;
+  color: #ededed;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 38px; }
+  .titu:hover {
+    color: #ffffff; }
+
+@keyframes tit_animado {
+  0% {
+    letter-spacing: 0.2em;
+    opacity: 0; }
+  25% {
+    opacity: 0.4; }
+  50% {
+    opacity: 0.6; }
+  75% {
+    opacity: 0.9; }
+  100% {
+    color: black;
+    letter-spacing: normal;
+    opacity: 1; } }
+
+.form {
+  border-radius: 15px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 8px 8px 47px #656565,-8px -8px 47px #ffffff;
+  width: 500px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 50px; }
+
+.comple {
+  padding-bottom: 20px; }
+
+.areatext {
+  width: 395px;
+  white-space: pre-wrap;
+  margin-bottom: 10px; }
+
+.texttt {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 19px;
+  font-weight: 500;
+  margin: 0px; }
+
+.css-button-rounded--red {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #d90429;
+  background: #d90429;
+  margin-bottom: 10px; }
+  .css-button-rounded--red:hover {
+    background-color: #cacaca;
+    color: #d90429; }
+
+.ob {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 1px;
+  margin-bottom: 10px; }
+
+.stadium {
+  padding: 1%; }
+
+.olds {
+  font-size: 25px; }
+
+.hirsc {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.dest {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.redes {
+  margin-top: 10px;
+  padding-right: 10px; }
+
+.estadioTIT {
+  margin: 0px;
+  padding-bottom: 25px;
+  font-size: 30px; }
+  @media screen and (max-width: 768px) {
+    .estadioTIT {
+      font-size: 28px; } }
+  @media screen and (max-width: 480px) {
+    .estadioTIT {
+      font-size: 26px; } }
+
+/* PERTENECE A PRODUCTOS. NO HTML */
+.inde_tit_parrafo {
+  margin-right: 160px;
+  margin-left: 160px; }
+  @media screen and (max-width: 768px) {
+    .inde_tit_parrafo {
+      margin-right: 60px;
+      margin-left: 60px; } }
+  @media screen and (max-width: 480px) {
+    .inde_tit_parrafo {
+      font-size: 15px;
+      font-weight: 500;
+      margin-right: 20px;
+      margin-left: 20px; } }
+
+/* -------- */
+.inde_tit {
+  text-align: center; }
+
+.inde_tit_titulo {
+  font-size: 45px;
+  margin-top: 12px;
+  margin-bottom: 12px; }
+  @media screen and (max-width: 768px) {
+    .inde_tit_titulo {
+      font-size: 27px; } }
+  @media screen and (max-width: 480px) {
+    .inde_tit_titulo {
+      font-size: 23px;
+      margin-top: 20px;
+      margin-bottom: 10px; } }
+
+.tit_animado {
+  animation: tit_animado 2s cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s both; }
+
+.inde_tit_parr {
+  margin: 0px 130px 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 19px; }
+  @media screen and (max-width: 768px) {
+    .inde_tit_parr {
+      margin-right: 80px;
+      margin-left: 80px;
+      font-size: 16px; } }
+  @media screen and (max-width: 480px) {
+    .inde_tit_parr {
+      margin-right: 20px;
+      margin-left: 20px; } }
+
+.indek {
+  display: grid;
+  justify-items: center; }
+  .indek_pri {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .indek_seg {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .indek_fut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+    padding-top: 0px;
+    padding: 20px 20px 20px;
+    background-clip: border-box;
+    border-radius: 5px;
+    background-color: #a5a5a586;
+    border: #5a5a5a44 1px solid; }
+    .indek_fut:hover {
+      background-color: #a5a5a54d; }
+  .indek_bas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+    padding-top: 0px;
+    padding: 20px 20px 20px;
+    background-clip: border-box;
+    border-radius: 5px;
+    background-color: #a5a5a586;
+    border: #5a5a5a44 1px solid; }
+    .indek_bas:hover {
+      background-color: #a5a5a54d; }
+  .indek_hockey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+    padding-top: 0px;
+    padding: 20px 20px 20px;
+    background-clip: border-box;
+    border-radius: 5px;
+    background-color: #a5a5a586;
+    border: #5a5a5a44 1px solid; }
+    .indek_hockey:hover {
+      background-color: #a5a5a54d; }
+
+.tit_ind {
+  margin-top: 0px;
+  padding-bottom: 5px; }
+  .tit_ind:hover {
+    transform: scale(102%); }
+
+.his {
+  text-align: center; }
+
+.his_tit {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.his_par {
+  font-size: 20px;
+  margin: 10px 300px;
+  font-weight: 500; }
+
+.his_fund {
+  text-align: center; }
+
+.his_izq, .his_der {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  border-radius: 3px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 5px 5px 16px #6e6e6e,-5px -5px 16px #ffffff;
+  width: 800px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.his_der {
+  margin-left: 39.6%;
+  background: linear-gradient(145deg, #a3a3a3, #d4d4d4); }
+
+.his_cen {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  color: #ededed;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 4px;
+  background-image: url(../cimg/back_text.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: block; }
+
+.fechz {
+  font-size: 30px;
+  margin-top: 1%;
+  margin-bottom: 0px; }
+  .fechz:hover {
+    color: #fe0000; }
+
+.descFotos {
+  font-size: 15px;
+  text-shadow: #000000 1px 1px 3px; }
+
+.pFotos {
+  font-size: 13px;
+  margin: 0px;
+  text-shadow: #000000 1px 1px 2px; }
+
+.gloria {
+  font-size: 18px; }
+
+.barbistro {
+  display: flex;
+  flex-direction: column; }
+
+.pics {
+  width: 400px; }
+
+.seghirs {
+  padding-top: 7px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.textprod {
+  text-decoration: none; }
+
+.copas {
+  background-image: url(../cimg/libertadores.png);
+  text-align: center;
+  padding-bottom: 10px; }
+
+.copas_foto {
+  border-style: groove;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0); }
+  .copas_foto:hover {
+    border-style: groove;
+    border: rgba(0, 0, 0, 0.719) 1px solid; }
+
+.copas_tit {
+  font-size: 30px;
+  margin: 10px; }
+  .copas_tit:hover {
+    color: #fe0000; }
+
+.prod_size {
+  width: 316px; }
+
+.prod_bk {
+  border: rgba(0, 0, 0, 0) 1px solid; }
+  .prod_bk:hover {
+    border: #a8a8a8 1px solid;
+    background-color: #ebebebb7; }
+
+@media (max-width: 1900px) {
+  .navfooter {
+    width: 200px; } }
+
+@media (max-width: 1750px) {
+  .his_izq, .his_der {
+    width: 600px; }
+  .his_der {
+    width: 600px; } }
+
+@media (max-width: 1192px) {
+  .his {
+    text-align: center; }
+  .his_tit {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 8px; }
+  .his_par {
+    font-size: 15px;
+    margin: 10px 210px;
+    font-weight: 500; }
+  .his_fund {
+    text-align: center; } }
+
+@media (max-width: 1525px) {
+  .his_cen {
+    font-size: 14px; }
+  .his_izq, .his_der {
+    width: 500px;
+    font-size: 14px; }
+  .his_der {
+    width: 500px;
+    font-size: 14px; } }
+
+@media (max-width: 1255px) {
+  .tit_animado {
+    -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.3em;
+      opacity: 0; }
+    40% {
+      opacity: 0.6; }
+    100% {
+      opacity: 1; } } }
+
+@media (max-width: 1200px) {
+  .his_cen {
+    font-size: 13px; }
+  .his_izq, .his_der {
+    width: 400px;
+    font-size: 14px; }
+  .his_der {
+    width: 400px;
+    font-size: 14px; }
+  .his_par {
+    margin: 5px 100px; }
+  .his_fund {
+    font-size: 13px; } }
+
+@media (max-width: 970px) {
+  .indek_pri {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .indek_seg {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center; }
+  .female {
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px; }
+  .indek_hockey {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px; }
+  .indek_fut {
+    margin-right: 0px;
+    margin-left: 0px; }
+  .indek_bas {
+    margin-left: 0px;
+    margin-right: 0px; } }
+
+@media (max-width: 790px) {
+  .titu {
+    font-size: 35px; }
+  .dbl {
+    font-size: 17px; }
+  .his {
+    text-align: center; }
+  .his_tit {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .his_par {
+    font-size: 13px;
+    margin: 7px 70px;
+    font-weight: 500; }
+  .his_fund {
+    text-align: center; }
+  .his_cen {
+    margin: 10px;
+    font-size: 12px;
+    padding: 10px; }
+  .his_izq, .his_der {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .his_der {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .dest {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 15px; }
+  .pics {
+    width: 370px; }
+  .his_izq p, .his_der p {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .his_der p {
+    padding-top: 5px;
+    padding-bottom: 5px; } }
+
+@media (max-width: 580px) {
+  .navfooter {
+    width: 100px; }
+  .pics {
+    width: 330px; }
+  .his_par {
+    margin: 13px; }
+  .fechz {
+    font-size: 24px; }
+  .his_izq, .his_der {
+    width: 400px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 12px; }
+  .his_der {
+    width: 400px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 12px; }
+  .copas_foto {
+    width: 400px; }
+  .form {
+    width: 400px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px; }
+  .texttt {
+    font-size: 16px; }
+    .texttt h2 {
+      font-size: 21px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+  .areatext {
+    width: 370px; }
+  .prod_size {
+    width: 300px; }
+  .prod_bk {
+    margin: 7%;
+    border: #a8a8a8 1px solid;
+    background-color: #ebebebb7; } }
+
+@media (max-width: 460px) {
+  .titulo {
+    font-size: 33px; }
+  .dbl {
+    font-size: 15px; }
+  .pics {
+    width: 320px; }
+  .his_par {
+    margin: 10px; }
+  .his_cen {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 350px; }
+  .his_izq, .his_der {
+    width: 350px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 12px; }
+  .his_der {
+    width: 350px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 12px; }
+  .copas_foto {
+    width: 350px; }
+  .fechz {
+    font-size: 23px; }
+  .form {
+    width: 350px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 25px; }
+  .comple {
+    padding-bottom: 5px; }
+  .texttt {
+    font-size: 15px; }
+    .texttt h2 {
+      font-size: 17px; }
+  .areatext {
+    width: 280px; } }
