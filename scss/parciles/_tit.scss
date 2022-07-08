@@ -146,17 +146,35 @@
     }
 }
 
+.itemgris {
+	@include tablet {
+	background-color: #e0e0e0;
+	border-radius: 3px;
+	}
+}
+
+.tit_edlp {
+	@include tablet  {
+		padding-top: 15px;
+		}
+	}
+
 /* PERTENECE A PRODUCTOS. NO HTML */
 .inde_tit_parrafo{
-    margin-right: 160px;
-    margin-left: 160px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+	font-weight: 500;
+		@include xxltablet {
+			margin-right: 200px;
+            margin-left: 200px;
+		}
+
         @include tablet {
             margin-right: 60px;
             margin-left: 60px;
         }
         @include mobile {
             font-size: 15px;
-            font-weight: 500;
             margin-right: 20px;
             margin-left: 20px;
         }
@@ -363,6 +381,10 @@
 		border: $hoverProd;
 		background-color: #ebebebb7;
 	}
+}
+
+.prod_ {
+	padding: 20px;
 }
 
 @media (max-width: 1900px) {

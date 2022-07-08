@@ -23,7 +23,7 @@ footer {
 .redesnav {
   align-items: center;
   align-content: center;
-  padding-right: 7%;
+  padding: 0px 7px;
   padding-top: 5px;
   padding-bottom: 5px; }
 
@@ -159,10 +159,24 @@ footer {
     .estadioTIT {
       font-size: 26px; } }
 
+@media screen and (max-width: 768px) {
+  .itemgris {
+    background-color: #e0e0e0;
+    border-radius: 3px; } }
+
+@media screen and (max-width: 768px) {
+  .tit_edlp {
+    padding-top: 15px; } }
+
 /* PERTENECE A PRODUCTOS. NO HTML */
 .inde_tit_parrafo {
-  margin-right: 160px;
-  margin-left: 160px; }
+  margin-right: 10rem;
+  margin-left: 10rem;
+  font-weight: 500; }
+  @media screen and (max-width: 1200px) {
+    .inde_tit_parrafo {
+      margin-right: 200px;
+      margin-left: 200px; } }
   @media screen and (max-width: 768px) {
     .inde_tit_parrafo {
       margin-right: 60px;
@@ -170,7 +184,6 @@ footer {
   @media screen and (max-width: 480px) {
     .inde_tit_parrafo {
       font-size: 15px;
-      font-weight: 500;
       margin-right: 20px;
       margin-left: 20px; } }
 
@@ -386,6 +399,9 @@ footer {
   .prod_bk:hover {
     border: #a8a8a8 1px solid;
     background-color: #ebebebb7; }
+
+.prod_ {
+  padding: 20px; }
 
 @media (max-width: 1900px) {
   .navfooter {
